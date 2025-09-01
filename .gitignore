@@ -1,0 +1,6 @@
+# Ignore images
+*.png
+*.jpg
+
+# Ignore the project description files
+*.csv
