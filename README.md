@@ -32,7 +32,7 @@ conda create -n cpm-diagram python=3.10 -y
 conda activate cpm-diagram
 
 # Install dependencies
-conda install pandas graphviz python-graphviz -c conda-forge -y
+pip install pandas graphviz
 ````
 
 > Make sure you have the Graphviz binaries installed.
@@ -93,7 +93,7 @@ python cpm_network_diagram.py project.csv output.pdf
 
 For the demo CSV above, the generated diagram looks like this:
 
-![CPM Network Diagram](network_demo.png)
+![CPM Network Diagram](media/network_demo.png)
 
 ---
 
