@@ -1,0 +1,6 @@
+id,description,duration,predecessors
+A,Kickoff,1,
+B,Design,5,A
+C,Procurement,4,A
+D,Implementation,7,"B, C"
+E,Testing,3,D
